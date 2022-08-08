@@ -1,0 +1,29 @@
+<h1>Snake Game!</h1>
+
+<p>Choose your snake's color:</p>
+
+<input type="color" value="#ADD8E6" id="colorWell">
+
+<p> <br></p>
+
+<div id='button'>
+  <button id='start'>Make your snake!</button>
+</div>
+
+<p> <br></p>
+<h1>Score:</h1>
+<div id="score"> 0</div>
+<canvas id="snakeboard" width="400" height="400"></canvas>
+
+<style>
+  #snakeboard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  #score {
+  text-align: left;
+  font-size: 50px;
+  }
+</style>
